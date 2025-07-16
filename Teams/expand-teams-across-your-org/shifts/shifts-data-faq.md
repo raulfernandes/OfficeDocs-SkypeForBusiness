@@ -38,7 +38,7 @@ This article covers frequently asked questions about Shifts data.
 
 Upon setting up Teams, a country/region is chosen at the subscription level. Shifts honors this selection and Shifts data is stored in the corresponding country/region specified for Teams. If the country/region specified for Teams isn't supported in Shifts, we ensure that data is stored in a nearby supported region.
 
-Shifts data is stored in one of the following region geographies (geos): Asia Pacific (APAC), European Union (EU), or United States. Within the supported geo, your Shifts data is stored in two Azure data centers for High Availability (HA) and Disaster Recovery (DR) purposes.
+Shifts data is stored in one of the following region geographies (geos): Asia Pacific (APAC), European Union (EU), or United States. Within the supported geo, your Shifts data is stored in two Azure data centers for High Availability (HA) and Disaster Recovery (DR) purposes. 
 
 Additionally, Shifts offers data residency locally in Australia, Canada, France, Japan, and the United Kingdom.
 
@@ -47,7 +47,9 @@ Examples:
 - For a Microsoft 365 tenant whose country/region is set to France, Shifts customer data is provisioned in France because Shifts supports data residency locally in France.
 - For a Microsoft 365 tenant whose country/region is set to Sweden, Shifts customer data is provisioned within the EU geo because Shifts doesn't support data residency locally in Sweden.
 
-To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**.
+To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**. 
+
+Shifts does not support multi-geo capabilities, data is stored in the primary tenant data location.
 
 To learn more, see [Location of data in Microsoft Teams](../../privacy/location-of-data-in-teams.md) and [Data residency in Teams](/microsoft-365/enterprise/m365-dr-workload-teams).
 
