@@ -49,6 +49,8 @@ Examples:
 
 To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**.
 
+Shifts does not support multi-geo capabilities, data is stored in the primary tenant data location.
+
 To learn more, see [Location of data in Microsoft Teams](../../privacy/location-of-data-in-teams.md) and [Data residency in Teams](/microsoft-365/enterprise/m365-dr-workload-teams).
 
 > [!IMPORTANT]
